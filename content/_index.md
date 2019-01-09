@@ -3,7 +3,7 @@ title: Introduction
 type: docs
 ---
 
-# Software Engineering Practices
+# Introduction
 
 *Note: This website will be in continuous development in the month of January 2019. There may be some incomplete or missing content in some parts of the project.*
 
@@ -51,4 +51,4 @@ To end on a light note, here is a relevant [xkcd](https://www.xkcd.com) about co
 
 ## Author
 
-Hi! I am Swopnil Shrestha (or Swop for short). I am a second year Computer Science and Mathematics major at [Luther College](https://cs.luther.edu) in Iowa. I have worked extensively with Python in the field of Data Engineering and Computer Science. I was previously a Data Engineering intern at [CloudFactory](https://www.cloudfactory.com/) and I aim to work with machine learning and artificial intelligence. If you have any questions or want to connect with me you can visit my [website](https://www.swopnilnep.github.io) or [email me](mailto:swopnil@pm.me).
+Hi! I am Swopnil Shrestha (or Swop for short). I am a second year Computer Science and Mathematics major at [Luther College](https://cs.luther.edu) in Iowa. I have worked extensively with Python in the field of Data Engineering and Computer Science. I was previously a Data Engineering intern at [CloudFactory](https://www.cloudfactory.com/) and I aim to work with machine learning and artificial intelligence. If you have any questions or want to connect with me you can visit my [website](https://swopnilnep.github.io) or [email me](mailto:swopnil@pm.me).

@@ -3,11 +3,15 @@ headless: true
 ---
 
 - [**Introduction**]({{< ref "/" >}})
-- [Examples]({{< ref "/docs/examples.md" >}})
-  - [With Table of contents]({{< ref "/docs/with-toc.md" >}})
-  - [Without Table of Contents]({{< ref "/docs/without-toc.md" >}})  
-- **More Examples**
-- [Server]({{< ref "/docs/server.md" >}})
-- [Client]({{< ref "/docs/client.md" >}})
-- [Advanced]({{< ref "/docs/advanced.md" >}})  
+- [**Project Organization**]({{< ref "/docs/examples.md">}})
+  - [Communication]({{< ref "/docs/examples.md">}})
+  - [Software Lifecycles]({{< ref "/docs/examples.md">}})
+  - [Scrum]({{< ref "/docs/examples.md">}})
+  - [Prototyping]({{< ref "/docs/examples.md">}})
+  - [UML Activity Diagram]({{< ref "/docs/examples.md">}})
+- [**Software Configuration Management**]({{< ref "/docs/examples.md">}})
+  - [Version Control System]({{< ref "/docs/examples.md">}})
+  - [Distributed Version Control]({{< ref "/docs/examples.md">}})
+
+
 - [**Blog**]({{< ref "/posts" >}})

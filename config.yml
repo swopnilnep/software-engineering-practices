@@ -1,7 +1,7 @@
 # hugo server --themesDir ...
 
 baseURL: https://swopnilnep.github.io/software-engineering-practices
-title: swopnilnep
+title: Software Engineering Practices
 theme: book
 disableKinds: ["taxonomy", "taxonomyTerm"]
 # themesDir: ../..
@@ -25,8 +25,8 @@ params:
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo: https://github.com/alex-shpak/hugo-book
+  BookRepo: https://github.com/swopnilnep/software-engineering-practices
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
-  BookEditPath: edit/master/exampleSite/content
+  # BookEditPath: edit/master/public/content
