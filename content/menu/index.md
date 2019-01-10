@@ -3,7 +3,7 @@ headless: true
 ---
 
 - [**Introduction**]({{< ref "/" >}})
-- [**Project Organization**]({{< ref "/docs/examples.md">}})
+- [**Project Organization**]({{< ref "/docs/project_organization/1.md">}})
   - [Communication]({{< ref "/docs/examples.md">}})
   - [Software Lifecycles]({{< ref "/docs/examples.md">}})
   - [Scrum]({{< ref "/docs/examples.md">}})
