@@ -11,11 +11,7 @@ type: docs
 
 As the use of technology in all areas of life has been rapidly increasing, the demand and need for software engineering are becoming paramount. Software Engineering involves applying the ideas and principles of engineering to the software development field. Software engineers develop, test, debug design, maintain and evaluate that software that runs our world. With software running airplanes, medical devices, banks and online platforms like Google and Facebook, failure of software can have a massive impact on the economy and the world and can even lead to a loss of life. 
 
-Software Engineer or Developer ranked **number one** in three of US News' 2019 Job Rankings.
-
-* [Best Jobs of 2019](https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs)
-* [Best Technology Jobs of 2019](https://money.usnews.com/careers/best-jobs/rankings/best-technology-jobs)
-* [Best Stem Jobs of 2019](https://money.usnews.com/careers/best-jobs/rankings/best-stem-jobs)
+Software Engineer or Developer ranked **number one** in three of [US News' 2019 Job Rankings](https://money.usnews.com/careers/best-jobs/rankings/the-100-best-jobs).
 
 If you are someone aiming to work in the domain of software engineering you will will need to the develop flexibility and the ability to adapt quickly to new innovations and ideas. Working in the fields of software engineering requires any software engineer to understand and apply the methods, workflows and tools to handled a fast paced and complex development cycles. In this website, I aim to review and apply concepts of objected oriented software engineering as well as choose and apply various data structures and algorithms in problems. I will also write about UML modeling, common patterns and project management techniques that are used in complex software development environments.
 
