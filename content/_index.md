@@ -7,6 +7,10 @@ type: docs
 
 *Note: This website will be in continuous development in the month of January 2019. There may be some incomplete or missing content in some parts of the project.*
 
+## Author
+
+Hi! I am Swopnil Shrestha (or Swop for short). I am a second year Computer Science and Mathematics major at [Luther College](https://cs.luther.edu) in Iowa. I have worked extensively with Python in the field of Data Engineering and Computer Science. I was previously a Data Engineering intern at [CloudFactory](https://www.cloudfactory.com/) and I aim to work with machine learning and artificial intelligence. If you have any questions or want to connect with me you can visit my [website](https://swopnilnep.github.io) or [email me](mailto:swopnil@pm.me).
+
 ## Preface
 
 As the use of technology in all areas of life has been rapidly increasing, the demand and need for software engineering are becoming paramount. Software Engineering involves applying the ideas and principles of engineering to the software development field. Software engineers develop, test, debug design, maintain and evaluate that software that runs our world. With software running airplanes, medical devices, banks and online platforms like Google and Facebook, failure of software can have a massive impact on the economy and the world and can even lead to a loss of life. 
@@ -24,27 +28,26 @@ If you are someone aiming to work in the domain of software engineering you will
 * Understand the different phases of a software engineering project and common patterns
 * Learn common techniques and practices in project management and organization
 
-## The Software Engineering Process
+## Content
 
-In this website, we cover in general the various frameworks and methodologies in the software engineering process also known as software development life cycle, software process or SDLC. These are a set of ideas and actions that are chosen case by case for taking a product from ideation (i.e. requirements) to its delivery and release as a final project. It is called a cycle because software development is A software engineering process is a set of related activities that leads to software production. 
+The goal of this website is to provide a concise introduction or review of the main practices used in software engineering. This website offers valuable information about the development of complex software systems and it is expected that you are familiar with at least one object oriented programming language like Python, Java or C++. 
 
-The step by step process for SDLC is:
+This website is divided into 8 main topics which are divided into subsections. They are listed below along with hyperlinks to those topics.
 
-1. Project Planning and Feasibilty Study
-2. Requirement Analysis
-3. Design (Architecture)
-4. Development of Coded (Implementation)
-5. Testing
-6. Acceptance and Deployment
-7. Maintainance and Support
+3. Object Oriented Programming
+1. Project Organization and Management
+2. Software Configuration Management
+4. Concepts of Requirement Elicitation and Analysis
+5. System Design (Problem to Solutions and System Architecture)
+6. Object Design
+7. Model Based Testing and Quality Control
+8. Build and Release Management
 
+For each of the subsections, I will also add links to video lectures from the EdX's 'Software Engineering Essentials' [course](https://courses.edx.org/courses/course-v1:TUMx+SEECx+1T2018/course/) by TUMx and additional resources if you are interested in further reading about the topics. 
 
-We will explore software engineering and the SDLC in further sections.
+## Sources
 
 To end on a light note, here is a relevant [xkcd](https://www.xkcd.com) about communication in SE.
 
 ![Agile Methods Comic](https://imgs.xkcd.com/comics/communication.png)
 
-## Author
-
-Hi! I am Swopnil Shrestha (or Swop for short). I am a second year Computer Science and Mathematics major at [Luther College](https://cs.luther.edu) in Iowa. I have worked extensively with Python in the field of Data Engineering and Computer Science. I was previously a Data Engineering intern at [CloudFactory](https://www.cloudfactory.com/) and I aim to work with machine learning and artificial intelligence. If you have any questions or want to connect with me you can visit my [website](https://swopnilnep.github.io) or [email me](mailto:swopnil@pm.me).
