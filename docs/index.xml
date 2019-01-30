@@ -11,23 +11,113 @@
     
     <item>
       <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/1/</guid>
+      <description>Object Oriented Programming Object Oriented Programming is a programming paragdigm based on the concept of real world objects which contains functions (real world procedures, also known as methods) and attributes (data containing characteristics about the object).
+The philosphical approach of Object Oriented programming is to use the divide and conquer method towards software problems.
+Described in Sun Tzu&amp;rsquo;s &amp;ldquo;The Art of War&amp;rdquo;
+ It is the rule in war, if ten times the enemy&amp;rsquo;s strength, surround them; if five times, attack them; if double be able to divide them; if equal,engage them; if fewer, defend against them; if weaker, be able to avoid them.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/2/</guid>
+      <description>Debugging Debugging is a technique of finding and resolving of defects that prevent correct operations of software systems
+In the early days of computing, debugging was cumbersome but now debugging is more seamless because of various tools called debuggers.
+We can use debuggers in various languages and various IDEs.
+Here are some of the debugging techniques for the most common IDEs in some common OOP languages.
+Debugging Process: Steps involved in debugging are:  Identifying the problem Assigning the report to software engineer to the defect to verify that it is genuine.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/3/</guid>
+      <description>User Interface Design The philosophy of good user interface design is to make simple designs that promote self exploration. While the interface should be clean, the main functions should be easily visible and runnable within less interactions.
+One of the approach to designs from Henry Pertovski is that faliure in design is imperative as design is an iterative process so more valuable feedback comes from faliures rather than successes.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/1/</guid>
+      <description>Project Organization and Management With companies facing increasing companies and change in technology, managing projects that last from a few weeks to several years can be a challenging task. Thankfully project organization allows this effort to be focused and efficiently targeted.
+A project is defined as an undertaking that is:
+ limited in time has a clear goal and a specific budget requiring a concerted effort  Hence tere are many facets of a project that must be managed by a project manager and the members of the teams undertaking that project.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/2/</guid>
+      <description>Communication Communication is very important in software engineering and various guidelines need to be followed to maintain effective communication within internal and external stakeholders.
+Communication Skills in SE  Collaboration: Negotiating requirements Presentation: Presenting the system during a review Technical Writing: Writing proposals and project documentation Maanagement: Facilitate team meetings, find compromises, negotiate conflicts etc.  People need to communicate more in larger companies as there are more stakeholders and more project working on the same project</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/3/</guid>
+      <description>Software Lifecycle Models There are different questions in sofware development that lead to good software solutions. These questions are addressed by software development activites:
+There are different questions in software development * Requirements Elicitation: What is the problem? * Requirements Analysis: Partition the problem into smaller pieces * System Design: Design solutions for * Object Design: What are the best mechanisms to implement the solution? * Implementation: How is the solution constructed?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/4/</guid>
+      <description>Scrum There are two types of process controls in software engineering. These are defined process controls and empirical process control.
+Defined process control are models loke waterfall or the v-model where processes are planned, follow strict rules and avoid deviations. They do not deal with change very well.
+Empirical process controls are not entirely planned and allow the teams to inspect and adapt. The spiral model is an example of this.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/5/</guid>
+      <description>Prototyping Software development deals with complex system. Since the developer is not the same person as the user, the design of the software system is complicated and thus they must communicate with the user.
+The user is always right becuase after all the user is the one using the software. This is why prototpying is required to enable software engineers and developers to communicate with users or customers.
+Types of Prototyping Prototyping generally focus on three main characteristics that are longetivity, fidelity and stage of a software system.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/6/</guid>
+      <description>UML Activity Diagram UML or Unified Modified Language is a visual language to visualize activites in software processes.
+UML diagrams are of type softwarestructure diagrams or behaviour diagrams.
+An activity diagram displays a sequence of actions, shows the behaviour of a system during analysis and models business processes.
+These diagrams can model scrum or other software lifecycle models.
+Here are some resources on exploring different types of diagrams and some more of UML activity diagrams.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://swopnilnep.github.io/software-engineering-practices/docs/examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://swopnilnep.github.io/software-engineering-practices/docs/examples/</guid>
       <description>Ubi loqui Mentem genus facietque salire tempus bracchia Lorem markdownum partu paterno Achillem. Habent amne generosi aderant ad pellem nec erat sustinet merces columque haec et, dixit minus nutrit accipiam subibis subdidit. Temeraria servatum agros qui sed fulva facta. Primum ultima, dedit, suo quisque linguae medentes fixo: tum petis.
 Rapit vocant si hunc siste adspice Ora precari Patraeque Neptunia, dixit Danae Cithaeron armaque maxima in nati Coniugis templis fluidove. Effugit usus nec ingreditur agmen ac manus conlato.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://swopnilnep.github.io/software-engineering-practices/docs/project_organization/1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/project_organization/1/</guid>
-      <description>Project Organization and Management With companies facing increasing companies and change in technology, managing projects that last from a few weeks to several years can be a challenging task. Thankfully project organization allows this effort to be focused and efficiently targeted.
-A project is defined as an undertaking that is:
- limited in time has a clear goal and a specific budget requiring a concerted effort  Hence tere are many facets of a project that must be managed by a project manager and the members of the teams undertaking that project.</description>
     </item>
     
   </channel>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5th | Software Engineering Practices</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://swopnilnep.github.io/software-engineering-practices/normalize.min.css">
+
+<link rel="stylesheet" href="/software-engineering-practices/book.min.9caf26ee2daca225930c0f85fd9eaa9f543aea51e1c0f8096e61e8a6706ae066.css">
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+        <h2 class="book-brand">
+  <a href="https://swopnilnep.github.io/software-engineering-practices">Software Engineering Practices</a>
+</h2>
+        
+
+        
+          <ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/"><strong>Introduction</strong></a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/1/"><strong>Object Oriented Programming</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/2/">Debugging</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/3/">UI Design</a></li>
+</ul></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/1/"><strong>Project Organization and Management</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/2/">Communication</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/3/">Software Lifecycles</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/4/">Scrum</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/5/">Prototyping</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/6/">UML Activity Diagram</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/"><strong>Software Configuration Management</strong></a></p>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Version Control System</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Distributed Version Control</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/posts/"><strong>Blog</strong></a></p></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="https://swopnilnep.github.io/software-engineering-practices/svg/menu.svg" />
+  </label>
+  <strong>5th</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="prototyping">Prototyping</h1>
+
+<p>Software development deals with complex system. Since the developer is not the same person as the user, the design of the software system is complicated and thus they must communicate with the user.</p>
+
+<p>The user is always right becuase after all the user is the one using the software. This is why prototpying is required to enable software engineers and developers to communicate with users or customers.</p>
+
+<h2 id="types-of-prototyping">Types of Prototyping</h2>
+
+<p>Prototyping generally focus on three main characteristics that are longetivity, fidelity and stage of a software system.</p>
+
+<p>Here is a diagram of the different prototyping options:</p>
+
+<p><img src="prototypes.png" alt="" /></p>
+
+<h3 id="low-fidelity-prototypes">Low Fidelity Prototypes</h3>
+
+<p>Low fidelity prototypes don&rsquo;t need much development. These are rough ideas usually on paper that the developer shows to the user/customer.</p>
+
+<p>Advantages:</p>
+
+<ul>
+<li>Easy to produce</li>
+<li>More feedback</li>
+<li>No design decisions</li>
+</ul>
+
+<p>Disadvantages:</p>
+
+<ul>
+<li>Mostly not reused</li>
+<li>Important details are ignored</li>
+</ul>
+
+<h3 id="high-fidelity-prototypes">High Fidelity Prototypes</h3>
+
+<p>High fidelity prototypes require more effort and look similar to the actual product.</p>
+
+<p>Advantages:</p>
+
+<ul>
+<li>More realistic</li>
+<li>More detailed</li>
+<li>More impressive</li>
+</ul>
+
+<p>Disadvantages</p>
+
+<ul>
+<li>Takes more effort</li>
+<li>Less feedback</li>
+<li>High final expactations (especially if design is interactive)</li>
+</ul>
+
+<h3 id="horizontal-prototypes">Horizontal Prototypes</h3>
+
+<p>Horizontal prototypes would impleent the bottom (base) layers of the programs by showing a wide range of requirements and a bottom up or top down development approaches are used. These are mostly used in linear processes.</p>
+
+<h3 id="vertical-prototypes">Vertical Prototypes</h3>
+
+<p>Unlike the horozontal prototypes, a small functionality is made fully in all layers of the project. These are used in vertical integration in mostly agile processes.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div>
+    <a href="https://github.com/swopnilnep/software-engineering-practices/commit/fd218d17c9633c6cc71634a0e908d405651e1c0d" title='Last modified January 29, 2019 03:29 CST by swopnilnep' target="_blank" rel="noopener">
+      <img src="https://swopnilnep.github.io/software-engineering-practices/svg/code-merge.svg" /> Last Modified Jan 29, 2019
+    </a>
+  </div>
+  
+  
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#prototyping">Prototyping</a>
+<ul>
+<li><a href="#types-of-prototyping">Types of Prototyping</a>
+<ul>
+<li><a href="#low-fidelity-prototypes">Low Fidelity Prototypes</a></li>
+<li><a href="#high-fidelity-prototypes">High Fidelity Prototypes</a></li>
+<li><a href="#horizontal-prototypes">Horizontal Prototypes</a></li>
+<li><a href="#vertical-prototypes">Vertical Prototypes</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+  
+</body>
+
+</html>

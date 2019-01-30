@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1st | Software Engineering Practices</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://swopnilnep.github.io/software-engineering-practices/normalize.min.css">
+
+<link rel="stylesheet" href="/software-engineering-practices/book.min.9caf26ee2daca225930c0f85fd9eaa9f543aea51e1c0f8096e61e8a6706ae066.css">
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+        <h2 class="book-brand">
+  <a href="https://swopnilnep.github.io/software-engineering-practices">Software Engineering Practices</a>
+</h2>
+        
+
+        
+          <ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/"><strong>Introduction</strong></a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/1/"><strong>Object Oriented Programming</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/2/">Debugging</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/3/">UI Design</a></li>
+</ul></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/1/"><strong>Project Organization and Management</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/2/">Communication</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/3/">Software Lifecycles</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/4/">Scrum</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/5/">Prototyping</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/6/">UML Activity Diagram</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/"><strong>Software Configuration Management</strong></a></p>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Version Control System</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Distributed Version Control</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/posts/"><strong>Blog</strong></a></p></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="https://swopnilnep.github.io/software-engineering-practices/svg/menu.svg" />
+  </label>
+  <strong>1st</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="object-oriented-programming">Object Oriented Programming</h1>
+
+<p>Object Oriented Programming is a programming paragdigm based on the concept of real world objects which contains functions (real world procedures, also known as methods) and attributes (data containing characteristics about the object).</p>
+
+<p>The philosphical approach of Object Oriented programming is to use the divide and conquer method towards software problems.</p>
+
+<p>Described in Sun Tzu&rsquo;s &ldquo;The Art of War&rdquo;</p>
+
+<blockquote>
+<p>It is the rule in war, if ten times the enemy&rsquo;s strength, surround them; if five times, attack them; if double be able to divide them; if equal,engage them; if fewer, defend against them; if weaker, be able to avoid them. (Art of War)</p>
+</blockquote>
+
+<p>Likewise, system design is desribed as the following:</p>
+
+<blockquote>
+<p>During system design, developers define the design goals of the project and
+decompose the system into smaller subsystems that can be realized by
+individual teams. ( Bernd Bruegge and Allen Dutoit. Object Oriented Software Engineering Using UML, Patterns, and Java. Prentice Hall, 3rd edition)</p>
+</blockquote>
+
+<h2 id="integrated-development-environment">Integrated Development Environment</h2>
+
+<p>An object oriented programming language is usually developed in an Integrated Development Environment (IDE) which saves time and adds simplicity to your project by adding the following features:</p>
+
+<ul>
+<li>Compiling multiple source code files in different folders makes project organization much simpler</li>
+<li>Syntax highlighting (PyLint, Vim Plugins) saves a lot of time while writing code</li>
+</ul>
+
+<p>Some popular IDEs are Eclipse for Java and PyCharm for Python.</p>
+
+<h2 id="object-oriented-programming-concepts">Object Oriented Programming Concepts</h2>
+
+<h3 id="object">Object</h3>
+
+<blockquote>
+<p>An object is a software bundle of related state and behaviour (Oracle Docs).</p>
+</blockquote>
+
+<p>An object in software is modeled after object we interact with in everyday life and imitates its state and behaviour. An object is an instance of a <strong>class</strong></p>
+
+<h3 id="class">Class</h3>
+
+<blockquote>
+<p>A class is a blueprint or prototype from which objects are created (Oracle Docs).</p>
+</blockquote>
+
+<p>A class models the state and behaviours of a real world object.</p>
+
+<p>A good differentiation of a class and an object would be that a &lsquo;laptop&rsquo; computer is a class whereas a MacBook is an object of the class laptop.</p>
+
+<p>Another another differentiation would be that a fruit is an &lsquo;abstract class&rsquo; whereas an apple is an object that retains the properties of the class fruit and hence is an insntance of it.</p>
+
+<h2 id="object-oriented-programming-principles">Object Oriented Programming Principles</h2>
+
+<p>The object oriented programming paradigm supports four major principles:</p>
+
+<h3 id="encapsulation">Encapsulation</h3>
+
+<p>Means of creating classes to define:
+* Structure by using attributes
+* Functionality by providing methods/practices</p>
+
+<h3 id="inheritance">Inheritance</h3>
+
+<p>Allows to reuse data structures by using an inheritance heirarchy:</p>
+
+<ul>
+<li>Use of structure to access attributes of a superclass</li>
+<li>Use of funcationality by accessing methods of a super-class</li>
+</ul>
+
+<h3 id="polymorphism">Polymorphism</h3>
+
+<ul>
+<li>Extends inheritance by allowing modification of functionality by overriding methods of a superclass</li>
+<li>We override an existing method of a superclass inside of a sub-class</li>
+</ul>
+
+<h3 id="abstraction">Abstraction</h3>
+
+<ul>
+<li>The ability to define an abstract structure which holds common states, behaviour or attributes</li>
+<li>We can make abstract classes (ex. person would be in abstract superclass where subclesses would be strudent and teacher)</li>
+</ul>
+
+<h2 id="sources">Sources</h2>
+
+<ul>
+<li><a href="https://docs.oracle.com/javase/tutorial/java/concepts/">Object Oriented Programming Concepts (Oracle)</a></li>
+<li><a href="https://courses.edx.org/asset-v1:TUMx+SEECx+3T_2017+type@asset+block@SEECx17_w3u1_Basics_of_OOP_1.pdf">EDX SEECX: Object Oriented Programming</a></li>
+<li><a href="https://courses.edx.org/asset-v1:TUMx+SEECx+3T_2017+type@asset+block@SEECx17_w3u2_Basics_of_OOP_2.pdf">EDX SEECX: Object Oriented Programming 2</a></li>
+</ul>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div>
+    <a href="https://github.com/swopnilnep/software-engineering-practices/commit/3f705f458b341be69db830f6d98bebd680d33eba" title='Last modified January 23, 2019 03:27 CST by swopnilnep' target="_blank" rel="noopener">
+      <img src="https://swopnilnep.github.io/software-engineering-practices/svg/code-merge.svg" /> Last Modified Jan 23, 2019
+    </a>
+  </div>
+  
+  
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#object-oriented-programming">Object Oriented Programming</a>
+<ul>
+<li><a href="#integrated-development-environment">Integrated Development Environment</a></li>
+<li><a href="#object-oriented-programming-concepts">Object Oriented Programming Concepts</a>
+<ul>
+<li><a href="#object">Object</a></li>
+<li><a href="#class">Class</a></li>
+</ul></li>
+<li><a href="#object-oriented-programming-principles">Object Oriented Programming Principles</a>
+<ul>
+<li><a href="#encapsulation">Encapsulation</a></li>
+<li><a href="#inheritance">Inheritance</a></li>
+<li><a href="#polymorphism">Polymorphism</a></li>
+<li><a href="#abstraction">Abstraction</a></li>
+</ul></li>
+<li><a href="#sources">Sources</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+  
+</body>
+
+</html>

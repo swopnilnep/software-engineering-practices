@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4th | Software Engineering Practices</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://swopnilnep.github.io/software-engineering-practices/normalize.min.css">
+
+<link rel="stylesheet" href="/software-engineering-practices/book.min.9caf26ee2daca225930c0f85fd9eaa9f543aea51e1c0f8096e61e8a6706ae066.css">
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+        <h2 class="book-brand">
+  <a href="https://swopnilnep.github.io/software-engineering-practices">Software Engineering Practices</a>
+</h2>
+        
+
+        
+          <ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/"><strong>Introduction</strong></a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/1/"><strong>Object Oriented Programming</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/2/">Debugging</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/3/">UI Design</a></li>
+</ul></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/1/"><strong>Project Organization and Management</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/2/">Communication</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/3/">Software Lifecycles</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/4/">Scrum</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/5/">Prototyping</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/6/">UML Activity Diagram</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/"><strong>Software Configuration Management</strong></a></p>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Version Control System</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Distributed Version Control</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/posts/"><strong>Blog</strong></a></p></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="https://swopnilnep.github.io/software-engineering-practices/svg/menu.svg" />
+  </label>
+  <strong>4th</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="scrum">Scrum</h1>
+
+<p>There are two types of process controls in software engineering. These are defined process controls and empirical process control.</p>
+
+<p>Defined process control are models loke waterfall or the v-model where processes are planned, follow strict rules and avoid deviations. They do not deal with change very well.</p>
+
+<p>Empirical process controls are not entirely planned and allow the teams to inspect and adapt. The spiral model is an example of this.</p>
+
+<p>Scrum is a popular empirical process control model used mainly by small development teams.</p>
+
+<h2 id="focus-of-scrum-process">Focus of Scrum Process</h2>
+
+<p>Scrum is the most popular agile method. It start out with the specification of <strong>product backlogs</strong> which determine the rough requirements of a software problem. Then they carry on with sprint backlogs for the next 2-4 weeks.</p>
+
+<p>It is a management and control process that focuses on Early risk management. Each review, look at software that looks on goals for the next 2-4 weeks and delivers working software incrementally, adapting the process when it is required</p>
+
+<h2 id="parts-of-scrum">Parts of Scrum</h2>
+
+<ul>
+<li>Product Kickoff Meeting
+
+<ul>
+<li>Owner</li>
+<li>List of rough requirements</li>
+<li>Rough Requirements → Product Backlog</li>
+</ul></li>
+<li>Sprint Planning Meeting
+
+<ul>
+<li>Items from the product backlog → Sprint Backlog</li>
+</ul></li>
+<li>Sprint Review Meeting
+
+<ul>
+<li>Developments presented to the owner</li>
+<li>Retrospective on how the team collaborated together</li>
+</ul></li>
+</ul>
+
+<p>A <strong>sprint</strong> is a time boxed activity during which the team creates a potentially shippable product increment.
+* Consistant duration
+* Start: Sprint planning meeting
+* End: Sprint review meeting</p>
+
+<h2 id="scrum-team">Scrum Team</h2>
+
+<ul>
+<li>Development Team
+
+<ul>
+<li>Self-organizing - Pulls the tasks and decide what they are working on</li>
+<li>Cross functional - Different experts (tester, analyst, manager etc)</li>
+<li>Product Increment - Realize the sprint backlog items and turn it into a product increment</li>
+</ul></li>
+<li>Scrum Master
+
+<ul>
+<li>Resolved impediments</li>
+<li>Responsible for process</li>
+</ul></li>
+<li>Product Owner
+
+<ul>
+<li>Defines the products</li>
+<li>Like a requirements engineer</li>
+<li>Responsible for the results</li>
+</ul></li>
+</ul>
+
+<h2 id="scrum-meetings">Scrum Meetings</h2>
+
+<ul>
+<li>Project kickoff meeting:
+create and prioritize product b
+acklog</li>
+<li>Sprint planning meeting: Create sprint backlog</li>
+<li>Daily scrum meeting: 15 min standup meeting to share status, impediments and promises</li>
+<li>Sprint review meeting: Demonstration of realized backlog items to the product owner</li>
+<li>Sprint retrospective: inspect the sprint and find improvements for the next sprint</li>
+</ul>
+
+<h2 id="scrum-artifacts">Scrum Artifacts</h2>
+
+<ul>
+<li>Product backlog: list of requirements for the whole product</li>
+<li>Sprint backlog: list of requirements and tasks for one iteration (sprint)</li>
+<li>Potentially shippable product increment:release to the product owner</li>
+</ul>
+
+<p><img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/ScrumFramework_2000x1000.png" alt="img" /></p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div>
+    <a href="https://github.com/swopnilnep/software-engineering-practices/commit/6464086395cb2b95e0f600de3ad4b56b01346573" title='Last modified January 29, 2019 03:29 CST by swopnilnep' target="_blank" rel="noopener">
+      <img src="https://swopnilnep.github.io/software-engineering-practices/svg/code-merge.svg" /> Last Modified Jan 29, 2019
+    </a>
+  </div>
+  
+  
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#scrum">Scrum</a>
+<ul>
+<li><a href="#focus-of-scrum-process">Focus of Scrum Process</a></li>
+<li><a href="#parts-of-scrum">Parts of Scrum</a></li>
+<li><a href="#scrum-team">Scrum Team</a></li>
+<li><a href="#scrum-meetings">Scrum Meetings</a></li>
+<li><a href="#scrum-artifacts">Scrum Artifacts</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+  
+</body>
+
+</html>

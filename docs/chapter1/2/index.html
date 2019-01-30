@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2nd | Software Engineering Practices</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://swopnilnep.github.io/software-engineering-practices/normalize.min.css">
+
+<link rel="stylesheet" href="/software-engineering-practices/book.min.9caf26ee2daca225930c0f85fd9eaa9f543aea51e1c0f8096e61e8a6706ae066.css">
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+        <h2 class="book-brand">
+  <a href="https://swopnilnep.github.io/software-engineering-practices">Software Engineering Practices</a>
+</h2>
+        
+
+        
+          <ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/"><strong>Introduction</strong></a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/1/"><strong>Object Oriented Programming</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/2/">Debugging</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/3/">UI Design</a></li>
+</ul></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/1/"><strong>Project Organization and Management</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/2/">Communication</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/3/">Software Lifecycles</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/4/">Scrum</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/5/">Prototyping</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/6/">UML Activity Diagram</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/"><strong>Software Configuration Management</strong></a></p>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Version Control System</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Distributed Version Control</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/posts/"><strong>Blog</strong></a></p></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="https://swopnilnep.github.io/software-engineering-practices/svg/menu.svg" />
+  </label>
+  <strong>2nd</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="debugging">Debugging</h1>
+
+<p>Debugging is a technique of finding and resolving  of defects that prevent correct operations of software systems</p>
+
+<p>In the early days of computing, debugging was cumbersome but now debugging is more seamless because of various tools called debuggers.</p>
+
+<p>We can use debuggers in various languages and various IDEs.</p>
+
+<p>Here are some of the debugging techniques for the most common IDEs in some common OOP languages.</p>
+
+<h2 id="debugging-process-steps-involved-in-debugging-are">Debugging Process: Steps involved in debugging are:</h2>
+
+<ul>
+<li>Identifying the problem</li>
+<li>Assigning the report to software engineer to the defect to verify that it is genuine.</li>
+<li>Defect Analysis using modeling, documentations, finding and testing candidate flaws, etc.</li>
+<li>Defect Resolution by making required changes to the system.</li>
+<li>Validation of corrections.</li>
+</ul>
+
+<h2 id="common-debugging-tools">Common Debugging Tools</h2>
+
+<h3 id="python">Python</h3>
+
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/visualstudio/python/debugging-python-in-visual-studio?view=vs-2017">Debug your Python code - Visual Studio</a></li>
+<li><a href="https://www.codementor.io/gbozee/debugging-in-python-9ia7lof32">Debugging in Python</a></li>
+<li><a href="https://realpython.com/python-debugging-pdb/">Python Debugging With Pdb</a></li>
+</ul>
+
+<h3 id="java">Java</h3>
+
+<ul>
+<li><a href="http://www.vogella.com/tutorials/EclipseDebugging/article.html">Java Debugging with Eclipse</a></li>
+</ul>
+
+<h2 id="concepts-in-debugging">Concepts in Debugging</h2>
+
+<ul>
+<li>Compiler: A computer program that transforms a source code into object code to create a machine executable program. A compiler error is the most common error when usually there is some missing syntax that does not allow the program to be executed.</li>
+<li>Breakpoint: A breakpoint is an intentional stopping or pausing point in the program temporarily added to inspect the underlying mechanics and check for errors.
+
+<ul>
+<li>Exceptional Breakpoints</li>
+<li>Conditional Breakpoints</li>
+</ul></li>
+</ul>
+
+<h2 id="sources">Sources</h2>
+
+<ul>
+<li><a href="https://courses.edx.org/courses/course-v1:TUMx+SEECx+1T2018/courseware/66ff53b993894fcea837c84de9a437dc/215fa958631b44a1b0da1aa2f5806bdb/1?activate_block_id=block-v1%3ATUMx%2BSEECx%2B1T2018%2Btype%40vertical%2Bblock%4083c92969b1514801824d11c5a47955ff">https://courses.edx.org/courses/course-v1:TUMx+SEECx+1T2018/courseware/66ff53b993894fcea837c84de9a437dc/215fa958631b44a1b0da1aa2f5806bdb/1?activate_block_id=block-v1%3ATUMx%2BSEECx%2B1T2018%2Btype%40vertical%2Bblock%4083c92969b1514801824d11c5a47955ff</a></li>
+<li><a href="https://courses.edx.org/courses/course-v1:TUMx+SEECx+1T2018/course/#block-v1:TUMx+SEECx+1T2018+type@chapter+block@66ff53b993894fcea837c84de9a437dc">https://courses.edx.org/courses/course-v1:TUMx+SEECx+1T2018/course/#block-v1:TUMx+SEECx+1T2018+type@chapter+block@66ff53b993894fcea837c84de9a437dc</a></li>
+<li><a href="https://www.geeksforgeeks.org/software-engineering-debugging/">https://www.geeksforgeeks.org/software-engineering-debugging/</a></li>
+</ul>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div>
+    <a href="https://github.com/swopnilnep/software-engineering-practices/commit/0eac3ddee45a707b8d01ac4c28193b5e35d4d9a8" title='Last modified January 24, 2019 03:27 CST by swopnilnep' target="_blank" rel="noopener">
+      <img src="https://swopnilnep.github.io/software-engineering-practices/svg/code-merge.svg" /> Last Modified Jan 24, 2019
+    </a>
+  </div>
+  
+  
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#debugging">Debugging</a>
+<ul>
+<li><a href="#debugging-process-steps-involved-in-debugging-are">Debugging Process: Steps involved in debugging are:</a></li>
+<li><a href="#common-debugging-tools">Common Debugging Tools</a>
+<ul>
+<li><a href="#python">Python</a></li>
+<li><a href="#java">Java</a></li>
+</ul></li>
+<li><a href="#concepts-in-debugging">Concepts in Debugging</a></li>
+<li><a href="#sources">Sources</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+  
+</body>
+
+</html>

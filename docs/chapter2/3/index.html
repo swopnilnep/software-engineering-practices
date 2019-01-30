@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3rd | Software Engineering Practices</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://swopnilnep.github.io/software-engineering-practices/normalize.min.css">
+
+<link rel="stylesheet" href="/software-engineering-practices/book.min.9caf26ee2daca225930c0f85fd9eaa9f543aea51e1c0f8096e61e8a6706ae066.css">
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+        <h2 class="book-brand">
+  <a href="https://swopnilnep.github.io/software-engineering-practices">Software Engineering Practices</a>
+</h2>
+        
+
+        
+          <ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/"><strong>Introduction</strong></a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/1/"><strong>Object Oriented Programming</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/2/">Debugging</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/3/">UI Design</a></li>
+</ul></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/1/"><strong>Project Organization and Management</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/2/">Communication</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/3/">Software Lifecycles</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/4/">Scrum</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/5/">Prototyping</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/6/">UML Activity Diagram</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/"><strong>Software Configuration Management</strong></a></p>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Version Control System</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/examples/">Distributed Version Control</a></li>
+</ul></li>
+
+<li><p><a href="https://swopnilnep.github.io/software-engineering-practices/posts/"><strong>Blog</strong></a></p></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="https://swopnilnep.github.io/software-engineering-practices/svg/menu.svg" />
+  </label>
+  <strong>3rd</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="software-lifecycle-models">Software Lifecycle Models</h1>
+
+<p>There are different questions in sofware development that lead to good software solutions. These questions are addressed by software development activites:</p>
+
+<p>There are different questions in software development
+* <strong>Requirements Elicitation</strong>: What is the problem?
+* <strong>Requirements Analysis</strong>: Partition the problem into smaller pieces
+* <strong>System Design</strong>: Design solutions for
+* <strong>Object Design</strong>: What are the best mechanisms to implement the solution?
+* <strong>Implementation</strong>: How is the solution constructed?
+* <strong>Testing</strong>: Is the problem solved?
+* <strong>Delivery</strong>: Can the customer use the solution?
+* <strong>Maintenance</strong>: Are enhancements needed?</p>
+
+<h2 id="software-lifecycle">Software Lifecycle</h2>
+
+<p>A software lifecycle is a set of activites and their realtionships to each other for the development of a software system.</p>
+
+<p>A software lifecycle model is an abstraction that represents a software lifecycle for the purpose of understanding, monitoring and controlling the development of a software system.</p>
+
+<p>There are many types of software lifecycles. Some of these are called dinasour models because they are archaic and should be avoided if possible.</p>
+
+<p>Below are three examples of models we should avoid:</p>
+
+<h2 id="waterfall-model">Waterfall Model</h2>
+
+<p><img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe2%2FWaterfall_model.svg%2F1200px-Waterfall_model.svg.png&amp;f=1" alt="img" /></p>
+
+<ul>
+<li>The activites in the waterfall model must be completed in sequential model them moved on to the mext activity</li>
+<li>If there is a change or a faliure, we should start on the beginning</li>
+</ul>
+
+<h2 id="v-model">V Model</h2>
+
+<p><img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.professionalqa.com%2Fassets%2Fimages%2Fv-model.png&amp;f=1" alt="img" /></p>
+
+<p>This is an adaptation on the waterfall model that focuses on testing more however if there is a change in the requirememts we should start from the beginning.</p>
+
+<h2 id="spiral-model">Spiral Model</h2>
+
+<p><img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fqualityguru.files.wordpress.com%2F2010%2F08%2Fspiral_model.gif&amp;f=1" alt="img" /></p>
+
+<p>This is one of the first iterative models which focus on risk analysis. The earlier phases focus on risk analysis, then design then software design.</p>
+
+<p>This is an improvement over the sequential models but it is still something that should be avoided.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div>
+    <a href="https://github.com/swopnilnep/software-engineering-practices/commit/b061298cfb3777b5956488af8f18ca120494c683" title='Last modified January 28, 2019 03:28 CST by swopnilnep' target="_blank" rel="noopener">
+      <img src="https://swopnilnep.github.io/software-engineering-practices/svg/code-merge.svg" /> Last Modified Jan 28, 2019
+    </a>
+  </div>
+  
+  
+</div>
+
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#software-lifecycle-models">Software Lifecycle Models</a>
+<ul>
+<li><a href="#software-lifecycle">Software Lifecycle</a></li>
+<li><a href="#waterfall-model">Waterfall Model</a></li>
+<li><a href="#v-model">V Model</a></li>
+<li><a href="#spiral-model">Spiral Model</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+  
+</body>
+
+</html>
