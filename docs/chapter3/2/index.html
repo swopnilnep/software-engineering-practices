@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2nd | Software Engineering Practices</title>
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://swopnilnep.github.io/software-engineering-practices/normalize.min.css">
+
+<link rel="stylesheet" href="/software-engineering-practices/book.min.9caf26ee2daca225930c0f85fd9eaa9f543aea51e1c0f8096e61e8a6706ae066.css">
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+        <h2 class="book-brand">
+  <a href="https://swopnilnep.github.io/software-engineering-practices">Software Engineering Practices</a>
+</h2>
+        
+
+        
+          <ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/"><strong>Introduction</strong></a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/1/"><strong>Object Oriented Programming</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/2/">Debugging</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter1/3/">UI Design</a></li>
+</ul></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/1/"><strong>Project Organization and Management</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/2/">Communication</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/3/">Software Lifecycles</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/4/">Scrum</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/5/">Prototyping</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter2/6/">UML Activity Diagram</a></li>
+</ul></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter3/1/"><strong>Software Configuration Management</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter3/2/">Version Control System</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter3/3/">Distributed Version Control</a></li>
+</ul></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/1/"><strong>Requirements Analysis</strong></a>
+
+<ul>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/2/">Requirements Elicitation</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/3/">Usability</a></li>
+<li><a href="https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/4/">Analysis</a></li>
+</ul></li>
+</ul>
+
+        
+
+        
+      </nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="https://swopnilnep.github.io/software-engineering-practices/svg/menu.svg" />
+  </label>
+  <strong>2nd</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="version-control-systems">Version Control Systems</h1>
+
+<p>In the history of version control different approaches existed.
+Starting with local version control systems such as RCS of CVS that only stored versions
+on a local computer without any connection to other computers.
+Later centralized version control tools allowed collaboration between developers, for example
+<strong>subversion</strong>.</p>
+
+<p>Nowadays distributed version control tools such as GIT are mostly used where developers
+can also send changes to each other without a remote repository.
+Version control allows many developers to collaboratively work on configuration items
+in a given project, for example source code and XML files
+Developers create version by committing the changes of the files and these versions are
+stored in a commit history so the developers can restore previous versions easily.</p>
+
+<p>This also allows to see how configuration items changed over time and who actually changed
+a certain item, for example a line of code in a class.
+Distributed version control, also known as decentralized version control provides more
+flexibility because developers can also work offline and it allows more features such as
+local branch link and offline community.</p>
+
+<h2 id="monolythic-archicecture">Monolythic Archicecture</h2>
+
+<ul>
+<li>Programmers have a local version database that keeps all the changes to a file under
+revision control on the local computer. They can check out files, change these files and
+create new versions of the files including these changes.</li>
+<li>There is no server computer included and developers would need to copy the files on disks or USB
+sticks in order to exchange them.</li>
+</ul>
+
+<p>An example for local version control of the monolithic architecture would be <strong>RCS</strong>.</p>
+
+<h2 id="repository-architecture">Repository Architecture</h2>
+
+<ul>
+<li>A single server contains all the versions and multiple programmers visualized here with
+computer A and computer B can check out files from the server to their local computer.</li>
+<li>If they change these files they commit their changes back into the central server that
+includes the version database.</li>
+<li>This means that developers can only create versions if they are connected to the central VCS.</li>
+</ul>
+
+<p>Advantage:
+*  Administrators have fine-grained control over which developer can do what
+Disadvantage: that there is a single point of failure.</p>
+
+<p>If the central version control server crashes the developers might lose all the versions
+in the complete history.</p>
+
+<p>Then it would not be possible anymore to restore older versions.
+An example for centralized version control is subversion, which is still used in a lot
+of companies and projects in these days.</p>
+
+<h2 id="peer-to-peer-architecture">Peer-to-peer Architecture</h2>
+
+<p>Peer-to-peer architectures for version control solve the single point of failure problem
+of central version control.
+* Each developer computer fully mirrors the version database, which we call repository
+to their local computers.
+* This means that each developer can access all versions locally, without a connection
+to the server computer.
+* If the server dies, the developer still has full copy of the repository.
+* All versions can be copied back to the server computer.
+* This approach allows developers to work offline on their own versions and to create commits
+and branches locally.
+* They only need to synchronize the commits and branches to the server computer in case
+they want to promote the versions to other developers.
+* In addition it could also bypass the server computer and send the changes for a new version
+directly to another developer.</p>
+
+<p>An example for a peer-to-peer architecture and version control is the nowadays mostly
+used distributed version tool GIT.</p>
+
+<h2 id="distrubuted-version-control-vs-cvs">Distrubuted Version Control vs CVS</h2>
+
+<p>The advantages of distributed version control are the developers can work offline and
+produce local commits without having a connection to the remote server.
+They only need to synchronize the commits in case they want to share them with their
+fellow developers.</p>
+
+<p>Distributed version control usually leads to smaller commits because developers can
+work incrementally and commit their changes more often, as the commits are faster.
+Developers can switch the context more efficiently due to lightweight branching.
+They can create branches locally then only the changes between
+branches are stored and not all files and folders of a branch are copied as it was in
+centralized version control.</p>
+
+<p>This also leads to the advantage that developers can explore multiple versions of their code
+more efficiently when they create branches.
+However distributed version control also has disadvantages.
+The learning curve is higher because developers need to use more commands.</p>
+
+<p>Developers also need to check out all files in all versions of a repository on their local
+computer, which can lead to scaling issues in large repositories, and when large files
+are stored in a repository. Centralized version control usually allows to check out parts
+of the repository, for example only a certain folder so you can omit the parts in the repository
+where the large files are stored.</p>
+
+<p>Sources:
+* <a href="https://courses.edx.org/courses/course-v1:TUMx+SEECx+1T2018/courseware/613843b156c84980b9a845a62b767635/923bb612e06c4b0687143c3f8a4dcdea/1?activate_block_id=block-v1%3ATUMx%2BSEECx%2B1T2018%2Btype%40vertical%2Bblock%40151de0c0cc894e14a50196243d56928f">https://courses.edx.org/courses/course-v1:TUMx+SEECx+1T2018/courseware/613843b156c84980b9a845a62b767635/923bb612e06c4b0687143c3f8a4dcdea/1?activate_block_id=block-v1%3ATUMx%2BSEECx%2B1T2018%2Btype%40vertical%2Bblock%40151de0c0cc894e14a50196243d56928f</a>
+* <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control</a>
+* <a href="https://www.smashingmagazine.com/2008/09/the-top-7-open-source-version-control-systems/">https://www.smashingmagazine.com/2008/09/the-top-7-open-source-version-control-systems/</a></p>
+</article>
+
+      
+
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#version-control-systems">Version Control Systems</a>
+<ul>
+<li><a href="#monolythic-archicecture">Monolythic Archicecture</a></li>
+<li><a href="#repository-architecture">Repository Architecture</a></li>
+<li><a href="#peer-to-peer-architecture">Peer-to-peer Architecture</a></li>
+<li><a href="#distrubuted-version-control-vs-cvs">Distrubuted Version Control vs CVS</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+
+  
+  
+</body>
+
+</html>

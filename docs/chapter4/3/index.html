@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>6th | Software Engineering Practices</title>
+<title>3rd | Software Engineering Practices</title>
 
 <link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://swopnilnep.github.io/software-engineering-practices/normalize.min.css">
@@ -69,37 +69,75 @@
   <label for="menu-control">
     <img src="https://swopnilnep.github.io/software-engineering-practices/svg/menu.svg" />
   </label>
-  <strong>6th</strong>
+  <strong>3rd</strong>
 </header>
 
       
 <article class="markdown">
 
-<h1 id="uml-activity-diagram">UML Activity Diagram</h1>
+<h1 id="analysis">Analysis</h1>
 
-<p>UML or Unified Modified Language is a visual language to visualize activites in software processes.</p>
+<p>The purpose of analysis is to create a model of the system which is correct,
+complete, consistent and also verifiable.
+This model is called the analysis model.</p>
 
-<p>UML diagrams are of type softwarestructure diagrams or behaviour diagrams.</p>
+<p>So we start from the requirements elicitation, go over to the requirements specification
+and describe the non-functional requirements and the functional model and then start with
+analysis.</p>
 
-<p>An activity diagram displays a sequence of actions, shows the behaviour of a system during analysis and models business processes.</p>
+<h2 id="formalization">Formalization</h2>
 
-<p>These diagrams can model scrum or other software lifecycle models.</p>
+<p>During analysis we create a dynamic model and an analysis object model.
+These models can be used as a base for discussion going back towards requirements elicitation
+and refining existing models.
+The final outcome of the analysis is a so called analysis model which consists of the
+dynamic model and the analysis object model of the system to be built.
+Communication is the most challenging task during requirements analysis:</p>
 
-<p><a href="https://www.uml-diagrams.org/uml-25-diagrams.html">Here</a> are some resources on exploring different types of diagrams and some more of UML <a href="https://www.uml-diagrams.org/activity-diagrams.html">activity diagrams</a>.</p>
+<h2 id="tasks-and-expectations">Tasks and Expectations</h2>
+
+<ul>
+<li>The customers have different backgrounds and expectations.</li>
+<li>Users, clients and developers have different domains of expertise and use different vocabularies
+to describe the same concepts.
+
+<ul>
+<li>Users want a system
+that supports their current web processes, whereas clients aim to maximize
+their return on invest.</li>
+</ul></li>
+<li>The developer needs to deliver the system and time.</li>
+</ul>
+
+<p>Different expectations can lead to problems if for example the developer does not properly
+understand the needs of the user. Due to the diversity of views and expectations in a project, stakeholders need to share information
+and report problems in a timely manner.</p>
+
+<p>And it is the job of the developers to initiate communication.
+Especially in large development projects there&rsquo;re conflicting objectives and there&rsquo;s no communication
+mechanisms that addresses all communication problems that might occur.</p>
+
+<p>However there are a few simple guidelines to follow.
+* First you have to define clear territories. That includes the assignment of specific roles.
+* The analyst is the application domain expert.
+* He models the current system and communicates this to client.
+( The architect (an integration role) unifies the use cases and the analysis object model
+and is responsible for the communication within the developers.
+* Furthermore clients and developers need to define clear measurable and verifiable objectives
+and success criteria in the requirements analysis document or as part of the client acceptance
+criteria in the problem statement.
+* Brainstorming, that is putting all the stakeholders in the same room to quickly generate solutions
+and definitions, can remove many barriers in communication and can lead to the definition
+of shared notations that support a communication.
+Storyboards and user interface sketches often appear spontaneously during brainstorming
+sessions.
+* However it is also important that precise instruction notations are used.
+* Developers use use cases and analysis object models to communicate with other developers.</p>
+
+<p>There is a need for formalization and standardization to deal with ambiguity.</p>
 </article>
 
       
-<div class="align-center book-git-footer justify-between">
-  
-  <div>
-    <a href="https://github.com/swopnilnep/software-engineering-practices/commit/0a1ea005e94e61774d7fb69be88093be38ced11e" title='Last modified January 29, 2019 03:29 CST by swopnilnep' target="_blank" rel="noopener">
-      <img src="https://swopnilnep.github.io/software-engineering-practices/svg/code-merge.svg" /> Last Modified Jan 29, 2019
-    </a>
-  </div>
-  
-  
-</div>
-
 
     </div>
 
@@ -109,7 +147,11 @@
   <aside class="book-toc fixed">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#uml-activity-diagram">UML Activity Diagram</a></li>
+<li><a href="#analysis">Analysis</a>
+<ul>
+<li><a href="#formalization">Formalization</a></li>
+<li><a href="#tasks-and-expectations">Tasks and Expectations</a></li>
+</ul></li>
 </ul>
 </nav>
   </aside>

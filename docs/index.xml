@@ -112,12 +112,134 @@ Here are some resources on exploring different types of diagrams and some more o
     
     <item>
       <title></title>
-      <link>https://swopnilnep.github.io/software-engineering-practices/docs/examples/</link>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter3/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/examples/</guid>
-      <description>Ubi loqui Mentem genus facietque salire tempus bracchia Lorem markdownum partu paterno Achillem. Habent amne generosi aderant ad pellem nec erat sustinet merces columque haec et, dixit minus nutrit accipiam subibis subdidit. Temeraria servatum agros qui sed fulva facta. Primum ultima, dedit, suo quisque linguae medentes fixo: tum petis.
-Rapit vocant si hunc siste adspice Ora precari Patraeque Neptunia, dixit Danae Cithaeron armaque maxima in nati Coniugis templis fluidove. Effugit usus nec ingreditur agmen ac manus conlato.</description>
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter3/1/</guid>
+      <description>Software Configuration Management Why Software Configuration Management is required * Promotion, Release, Revision Software Configuration Management allows you to * Track versions &amp;amp; collaborate * Change Management * Build and Release Management Multiple people work on artifacts that are changing: * More than one version of the artifact supported * Source Code * Documents * Released software system * Software is running on different machines, operating systems in the target environment * Need for coordination (software configuration management)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter3/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter3/2/</guid>
+      <description>Version Control Systems In the history of version control different approaches existed. Starting with local version control systems such as RCS of CVS that only stored versions on a local computer without any connection to other computers. Later centralized version control tools allowed collaboration between developers, for example subversion.
+Nowadays distributed version control tools such as GIT are mostly used where developers can also send changes to each other without a remote repository.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter3/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter3/3/</guid>
+      <description>Distributed Version Control In a distributed version control system, there is a remote repository. While there can be multiple remote repositories, in most cases there&amp;rsquo;s only one. Developers have a local repository on the computer and interact with this local repository in order to obtain changes from the remote repository and in order to upload their changes to the remote repository. Other developers connect also over their local repository to the remote repository, so that they can exchange files and changes on these files.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/1/</guid>
+      <description>Requirements Elicitation Requirement elicitation focus on the description and the purpose of a systems to be developed. The client developers and potential users identify a problem or even a problem area and therefore define the system to address the identified problem. Such a definition is called a requirement specification and it serves as an agreement or contract between the clients and the developers. The requirement specification is structured and formalized during the analysis phase and it&amp;rsquo;s based on a so called problem statement, which is described during requirement elicitation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/2/</guid>
+      <description>Usability Usabilty is a multidimensional nonfunctional requirement in software engineering and UI design. Some systems are hard to understand and therefore also hard to use. This gets even worse when usability is not considered carefully enough.
+Usability usually asks the following similar questions before adapting a particular feature into the UI:
+ What is the level of expertise for the user or did your user use the computer before? What user interface standards are familiar to the user?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/3/</guid>
+      <description>Analysis The purpose of analysis is to create a model of the system which is correct, complete, consistent and also verifiable. This model is called the analysis model.
+So we start from the requirements elicitation, go over to the requirements specification and describe the non-functional requirements and the functional model and then start with analysis.
+Formalization During analysis we create a dynamic model and an analysis object model. These models can be used as a base for discussion going back towards requirements elicitation and refining existing models.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter4/4/</guid>
+      <description>UML Use Case Diagram The purpose of use case diagram is to capture the dynamic aspect of a system. However, this definition is too generic to describe the purpose, as other four diagrams (activity, sequence, collaboration, and Statechart) also have the same purpose. We will look into some specific purpose, which will distinguish it from other four diagrams.
+ Use case diagrams are used to gather the requirements of a system including internal and external influences.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter5/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter5/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter5/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter5/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter5/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter5/3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter5/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter5/4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter6/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter6/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter6/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter6/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://swopnilnep.github.io/software-engineering-practices/docs/chapter6/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://swopnilnep.github.io/software-engineering-practices/docs/chapter6/3/</guid>
+      <description></description>
     </item>
     
   </channel>
